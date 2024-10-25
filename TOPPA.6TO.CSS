@@ -261,11 +261,18 @@ th {
 }
 
 .img {
+    width: 55%;
+    height: auto;
+    border-radius: 8px;
+    text-align: center;
+}
+.img2 {
     width: 100%;
     height: auto;
     border-radius: 8px;
     text-align: center;
 }
+
 
 .ancho {
     width: 150px;
