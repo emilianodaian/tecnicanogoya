@@ -2,7 +2,7 @@
     margin: 0%;
 }
 
-/*comentario*/
+
 .cuerpoprincipal {
     display: flex;
     flex-wrap: wrap;
@@ -19,7 +19,7 @@
     letter-spacing: 0.1em;
 }
 
-
+.logoescuela {width: 55%;}
 
 .posicionimagen {
     align-items: end;
@@ -27,7 +27,7 @@
 }
 
 .pie {
-    background-color: black;
+    background-color: blue;
     width: 100%;
     bottom: 0;
     left: 0;
@@ -70,7 +70,7 @@
     text-decoration: underline;
 }
 
-.acercadenosotros {
+.cuerpodocumento {
     padding: 25px;
 }
 
@@ -98,7 +98,7 @@
     font-weight: bold;
     color: #333;
     text-align: center;
-    margin: 20px 0;
+    margin: 20px ;
     padding: 10px;
     border-bottom: 2px solid #007bff;
     border-top: 2px solid #007bff;}
