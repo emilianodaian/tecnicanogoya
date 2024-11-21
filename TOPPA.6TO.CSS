@@ -19,7 +19,9 @@
     letter-spacing: 0.1em;
 }
 
-.logoescuela {width: 55%;}
+.logoescuela {
+    width: 55%;
+}
 
 .posicionimagen {
     align-items: end;
@@ -98,10 +100,11 @@
     font-weight: bold;
     color: #333;
     text-align: center;
-    margin: 20px ;
+    margin: 20px;
     padding: 10px;
     border-bottom: 2px solid #007bff;
-    border-top: 2px solid #007bff;}
+    border-top: 2px solid #007bff;
+}
 
 
 .ul {
@@ -170,11 +173,36 @@
     border-color: #ff6347;
 }
 
+/*complemento del home*/
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+height: 350;}
+
+.sugerencia {
+    width: 100%;
+    overflow: hidden;
+}
+
+.textodeimagen {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo semitransparente */
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: large;
+}
 
 
 
 
 
+
+/*Contactos*/
 
 .iconos-contacto {
     max-width: 160px;
@@ -236,7 +264,7 @@
 
 
 
-
+/*paginas de productos*/
 
 table {
     width: 50%;
@@ -266,6 +294,7 @@ th {
     border-radius: 8px;
     text-align: center;
 }
+
 .img2 {
     width: 100%;
     height: auto;
@@ -283,7 +312,8 @@ th {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
-    ;   margin-bottom: 0px;
+    ;
+    margin-bottom: 0px;
     color: #004d00
 }
 
