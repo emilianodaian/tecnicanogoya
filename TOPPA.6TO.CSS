@@ -176,8 +176,9 @@
 /*complemento del home*/
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); 
-height: 350;}
+    grid-template-columns: repeat(4, 1fr);
+    height: 350;
+}
 
 .sugerencia {
     width: 100%;
@@ -190,7 +191,8 @@ height: 350;}
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    background-color: rgba(0, 0, 0, 0.6); /* Fondo semitransparente */
+    background-color: rgba(0, 0, 0, 0.6);
+    /* Fondo semitransparente */
     padding: 10px;
     border-radius: 5px;
     text-align: center;
@@ -293,6 +295,8 @@ th {
     height: auto;
     border-radius: 8px;
     text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .img2 {
@@ -300,6 +304,8 @@ th {
     height: auto;
     border-radius: 8px;
     text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 
